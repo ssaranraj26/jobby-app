@@ -1,0 +1,31 @@
+.heading-100 {
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+.employee-type,
+.salary-range {
+  color: #f8fafc;
+}
+.checkbox-item,
+.radio-item {
+  margin-bottom: 0.5rem;
+}
+.checkbox-input,
+.radio-input {
+  margin-right: 0.5rem;
+}
+.checkbox-label,
+.radio-label {
+  color: #f8fafc;
+  font-size: 0.7rem;
+}
+.salary-range-container,
+.employment-type-checkbox-container {
+  list-style: none;
+  margin-bottom: 1rem;
+}
+hr {
+  margin-bottom: 1rem;
+  color: #f1f5f9;
+}

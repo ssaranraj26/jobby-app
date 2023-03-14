@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto';
+}
+.login-bg-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+  padding: 2rem;
+}
+.login-card {
+  display: flex;
+  flex-direction: column;
+  background-color: #202020;
+  padding: 1.5rem;
+  gap: 1.5rem;
+  border-radius: 0 20px;
+  max-width: 400px;
+  width: 100%;
+}
+.jobby-logo {
+  align-self: center;
+  width: 70px;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.input-field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.labels {
+  font-size: 0.7rem;
+  font-weight: 500;
+  color: #f1f5f9;
+}
+.inputs {
+  padding: 0.6rem 1rem;
+  background-color: transparent;
+  border: 1.5px solid #475569;
+  border-radius: 3px;
+  color: #f1f5f9;
+  outline: none;
+}
+
+.login-btn {
+  position: relative;
+  display: block;
+  padding: 0.7em 1.3em;
+  background-color: #4f46e5;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  border-radius: 7px;
+  color: white;
+  transition: all 0.5s ease-in-out;
+  z-index: 1;
+  overflow: hidden;
+}
+/* .login-btn:hover {
+  border-radius: 15px 0;
+  color: #f8fafc;
+}
+.login-btn::after {
+  position: absolute;
+  content: '';
+  inset: 0;
+  pointer-events: none;
+  transform: scaleX(0);
+  transition: transform 0.3s ease-in-out;
+  background-color: #6366f1;
+  transform-origin: right;
+  z-index: -1;
+}
+.login-btn:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+} */
+
+.login-err-msg {
+  color: #ff0b37;
+  margin-top: -0.6rem;
+  font-weight: 400;
+  font-size: 0.7rem;
+}
+
+@media (min-width: 768px) {
+  .login-card {
+    padding: 2rem;
+    gap: 3rem;
+  }
+  .form-container {
+    gap: 2rem;
+  }
+  .jobby-logo {
+    width: 120px;
+  }
+}
+#loginLoader {
+  margin: unset;
+}

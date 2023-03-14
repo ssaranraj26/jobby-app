@@ -1,0 +1,128 @@
+.job-details-bg-container {
+  background-color: black;
+  min-height: 100vh;
+  padding-top: 3rem;
+}
+.job-details-responsive-container {
+  padding: 1rem;
+  padding-top: 2rem;
+}
+.job-item-details-container {
+  background-color: #202020;
+  padding: 1rem;
+  border-radius: 15px;
+  margin-bottom: 2rem;
+}
+@media (min-width: 768px) {
+  .job-details-responsive-container {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 8rem;
+  }
+  .job-item-details-container {
+    padding: 3rem;
+  }
+}
+.company-logo-details {
+  width: 60px;
+}
+.title-details,
+.description-heading,
+.job-desc,
+.life-at-company-para,
+.similar-jobs {
+  color: white;
+}
+.package-text {
+  font-weight: 500;
+}
+.description-heading-visit-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  margin-top: 1.5rem;
+}
+a {
+  text-decoration: none;
+}
+.description-heading {
+  margin: 0;
+  font-size: 1rem;
+}
+.visit-link-container {
+  display: flex;
+  color: #6366f1;
+  align-items: center;
+  gap: 0.5rem;
+}
+.visit-text {
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+.job-desc {
+  margin-bottom: 1.5rem;
+}
+.skills,
+.life-at-company-heading {
+  color: white;
+  font-weight: 500;
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
+.skills-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2.5rem;
+  margin-bottom: 2rem;
+}
+.skill-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  width: 100px;
+}
+.skill-img {
+  width: 25px;
+}
+.skill-name {
+  color: white;
+  font-size: 0.8rem;
+}
+.life-at-company-para {
+  margin-bottom: 1.5rem;
+}
+.life-at-company-img {
+  border-radius: 15px;
+  width: 100%;
+}
+.similar-jobs {
+  margin-bottom: 1.5rem;
+}
+.similar-jobs-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.m-5 {
+  margin-bottom: 1.5rem;
+}
+.job-item-details-loader {
+  padding-top: 20%;
+}
+.failure-container-lg {
+  padding: 5rem;
+  display: flex;
+  color: white;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+@media (max-width: 767px) {
+  .failure-container-lg {
+    gap: 1rem;
+  }
+}

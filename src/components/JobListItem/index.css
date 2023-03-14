@@ -1,0 +1,88 @@
+.nav-links {
+  text-decoration: none;
+}
+.job-list-item {
+  padding: 1rem;
+  background-color: #272727;
+  border-radius: 10px;
+}
+@media (min-width: 768px) {
+  .job-list-item {
+    padding: 2rem;
+  }
+}
+.logo-title-star-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.company-logo {
+  width: 45px;
+  align-self: flex-start;
+  margin-right: 0.5rem;
+}
+.title-star-container {
+}
+.heading-300 {
+  font-size: 1.5rem;
+  margin-bottom: 0.4rem;
+}
+.title {
+  color: white;
+}
+.star-container {
+  display: flex;
+  align-items: center;
+}
+.star-icon {
+  margin-right: 0.5rem;
+  color: #fbbf24;
+}
+.rating-text {
+  color: white;
+}
+.location-job-type-package-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+.location-job-type-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: white;
+}
+.location-container,
+.job-type-container {
+  display: flex;
+  align-items: center;
+}
+.icon-100 {
+  margin-right: 0.3rem;
+  width: 15px;
+  height: 15px;
+}
+.para-100 {
+  font-size: 0.9rem;
+}
+.package-text {
+  font-size: 1rem;
+  color: white;
+}
+.heading-250 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+.description {
+  color: white;
+}
+.para-150 {
+  font-size: 0.9rem;
+  line-height: 1.4rem;
+  font-weight: 400;
+  opacity: 0.9;
+}
+.job-description {
+  color: white;
+}

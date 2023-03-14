@@ -1,0 +1,39 @@
+.nav-links {
+  text-decoration: none;
+}
+.similar-job-list-item {
+}
+#similarJobListItem {
+  flex-grow: 1;
+}
+@media (min-width: 768px) {
+  #similarJobListItem {
+    width: 400px;
+  }
+}
+.logo-title-star-container {
+}
+.company-logo {
+}
+.title-star-container {
+}
+.heading-300 {
+  color: white;
+}
+.star-container {
+}
+.star-icon {
+}
+.rating-text {
+}
+.heading-250 {
+  color: white;
+}
+.location-job-type-containe {
+}
+.job-type-container {
+}
+.para-150 {
+  color: white;
+  opacity: 0.9;
+}

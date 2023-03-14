@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto';
+}
+.header-container {
+  background-color: #202020;
+  padding: 1.2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  width: 100%;
+}
+.header-logo {
+  width: 75px;
+}
+.nav-container-lg {
+  display: none;
+}
+.nav-links {
+  text-decoration: none;
+}
+
+.logout-btn-lg {
+  display: none;
+}
+.nav-item-container-sm {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  align-items: center;
+  gap: 1.5rem;
+}
+.nav-item-sm {
+  cursor: pointer;
+}
+.nav-icons {
+  color: #f8fafc;
+  width: 25px;
+  height: 25px;
+}
+.logout-btn-sm {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+@media screen and (min-width: 768px) {
+  .header-container {
+    padding: 1.5rem 3rem;
+  }
+  .header-logo {
+    width: 120px;
+  }
+  .nav-container-lg {
+    display: flex;
+  }
+  .nav-item-container-lg {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    list-style: none;
+  }
+  .nav-item-lg {
+    color: #f8fafc;
+    font-weight: 500;
+    font-size: 1rem;
+  }
+  .nav-item-lg:hover {
+    color: #6366f1;
+  }
+  .logout-btn-lg {
+    position: relative;
+    display: block;
+    padding: 0.7em 1.3em;
+    background-color: #b6c5ff;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    border-radius: 0 15px;
+    color: #4f46e5;
+    transition: all 0.5s ease-in-out;
+    z-index: 1;
+    overflow: hidden;
+  }
+  .logout-btn-lg:hover {
+    border-radius: 15px 0;
+    color: #f8fafc;
+  }
+  .logout-btn-lg::after {
+    position: absolute;
+    content: '';
+    inset: 0;
+    pointer-events: none;
+    transform: scaleX(0);
+    transition: transform 0.3s ease-out;
+    background-color: #6366f1;
+    transform-origin: right;
+    z-index: -1;
+  }
+  .logout-btn-lg:hover::after {
+    transform: scaleX(1);
+    transform-origin: left;
+  }
+  .nav-container-sm {
+    display: none;
+  }
+}
+
+button {
+  cursor: pointer;
+}
+
+.hamburger-btn,
+.close-btn {
+  display: none;
+}
+@media (max-width: 767px) {
+  .logo-link {
+    margin-left: 3rem;
+  }
+  .hamburger-btn,
+  .close-btn {
+    position: fixed;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    display: block;
+    margin-top: 1.5rem;
+    margin-left: 1.2rem;
+    z-index: 770;
+  }
+  .hamburger-icon,
+  .close-icon {
+    color: white;
+    height: 1.2rem;
+    width: 1.2rem;
+  }
+  .close-btn {
+    z-index: 770;
+  }
+  .close-icon {
+    width: 1.3rem;
+    height: 1.3rem;
+    stroke-width: 60;
+  }
+}
+.display-none {
+  display: none;
+}
